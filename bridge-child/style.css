@@ -1,0 +1,136 @@
+/*
+Theme Name: Bridge Child
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: A child theme of Bridge Theme
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 1.0.0
+Template: bridge
+*/
+
+
+@import url("../bridge/style.css");
+
+/* fix padding on archive item */
+.default_template_holder .product-info{
+  padding: 0 calc(1vw + 10px);
+}
+
+/* fix hover color on menu item */
+.second .menu-item:hover span{
+  color: black;
+  transition: color .3s ease-in-out;
+}
+.second .menu-item span{
+  transition: color .3s ease-in-out;
+}
+
+/* No wrap and add elipses */
+.woocommerce ul.products li.product h6{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 800;
+color: black;
+text-transform: uppercase;
+
+}
+
+/* fix font on sale item */
+.woocommerce ul.products li.product .price {
+    font-size: 14px;
+    color: #777;
+    font-family: Nunito sans;
+    
+}
+
+/* Fix font size on sale price */
+.woocommerce ul.products li.product .price, .woocommerce ul.products li.product .price ins, .qode_product_list_holder .product_price {
+    color: #818181 important!;
+    font-size: 14px;
+}
+
+
+
+//
+.shopping_cart_dropdown ul span.quantity{
+  color: black !important;
+}
+.shopping_cart_dropdown ul:hover li a {
+  color: black !important;
+  transition: color .3s ease-in-out;
+}
+.shopping_cart_dropdown ul li a {
+  transition: color .3s ease-in-out;
+}
+.shopping_cart_dropdown ul li > span{
+  color: black !important;
+}
+
+.shopping_cart_inner .woocommerce-Price-amount{
+  color: black !important;
+}
+
+a.shipping-calculator-button {
+  font-size: 1em;
+  font-weight: normal;
+}
+.title_subtitle_holder {
+  font-size: 1em;
+}
+
+nav.main_menu ul li:hover a {
+  color: #000;
+  transition: color .3s ease-in-out;
+}
+nav.main_menu ul li.active a {
+  color: #03acf0;
+}
+
+.shopping_cart_header .header_cart.dripicons-cart .header_cart_span {
+  background-color: #03acf0;
+}
+
+.shopping_cart_dropdown {
+  border: 1px solid #e6e6e6;
+}
+
+
+.elementor-widget-heading h2.elementor-heading-title{
+  background-color: red;
+}
+
+a.product-category.product-info {padding: 10px;}
+
+/* centers category title on woocommerce generated pages */
+
+.title_subtitle_holder span{
+
+  font-size: 24px;
+  letter-spacing: 0px;
+}
+
+.title_subtitle_holder {
+  text-align: center;
+
+}
+
+nav.main_menu > ul > li > a {padding: 0px; margin: 0 20px;}
+.shopping_cart_header {text-align: right;}
+
+.container_inner .default_template_holder {
+  padding-top: 0px;
+}
+
+
+.woocommerce .content .container .container_inner, .woocommerce-page .content .container .container_inner {padding-top: 0px;}
+.select2-container--default.select2-container--open .select2-selection--single {
+  color: #03acf0;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected], .select2-container--default .select2-results__option[aria-selected="true"]{
+  color: #03acf0;
+}
+.select2-container--default .select2-results__option[aria-selected="true"], .select2-container--default .select2-results__option[data-selected="true"] {
+  background-color: #fff;
+}
