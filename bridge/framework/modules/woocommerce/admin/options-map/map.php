@@ -14,7 +14,7 @@ if(!function_exists('bridge_qode_woocommerce_options_map')) {
 		$woocommerce_page->addChild($product_list_panel->name, $product_list_panel);
 
 		$woo_products_list_number = new BridgeQodeField("select", "woo_products_list_number", "columns-3", esc_html__( "Product List and Related Products Columns Number", "bridge" ), esc_html__( "Choose number of columns for product listing and related products on single product", "bridge" ), array(
-			"columns-2" => esc_html__( "2 Columns (1 with sidebar)", "bridge" ),
+		
 			"columns-3" => esc_html__( "3 Columns (2 with sidebar)", "bridge" ),
 			"columns-4" => esc_html__( "4 Columns (3 with sidebar)", "bridge")
 		));
