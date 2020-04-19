@@ -1,8 +1,5 @@
 <?php
 
-// This is a change
-// It sure is!!!
-
 if(!function_exists('bridge_qode_child_theme_enqueue_scripts')) {
 
 	Function bridge_qode_child_theme_enqueue_scripts() {
