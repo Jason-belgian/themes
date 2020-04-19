@@ -31,28 +31,23 @@ Template: bridge
   overflow: hidden;
   text-overflow: ellipsis;
   font-weight: 800;
-color: black;
-text-transform: uppercase;
-
+  color: black;
+  text-transform: uppercase;
 }
 
 /* fix font on sale item */
 .woocommerce ul.products li.product .price {
-    font-size: 14px;
-    color: #777;
-    font-family: Nunito sans;
-    
+  font-size: 14px;
+  color: #777;
+  font-family: Nunito sans;
 }
 
 /* Fix font size on sale price */
 .woocommerce ul.products li.product .price, .woocommerce ul.products li.product .price ins, .qode_product_list_holder .product_price {
-    color: #818181 important!;
-    font-size: 14px;
+  color: #818181 important!;
+  font-size: 14px;
 }
 
-
-
-//
 .shopping_cart_dropdown ul span.quantity{
   color: black !important;
 }
