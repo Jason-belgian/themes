@@ -101,9 +101,9 @@ nav.main_menu ul li.active a {
   border: 1px solid #e6e6e6;
 }
 
-
-.elementor-widget-heading h2.elementor-heading-title{
-  background-color: red;
+.shopping_cart_dropdown ul li {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 15px 0;
 }
 
 a.product-category.product-info {padding: 10px;}
@@ -154,7 +154,14 @@ nav.main_menu > ul > li > a {padding: 0px; margin: 0 20px;}
 footer{
   position: absolute;
   bottom: 0;
+  margin-top: 15px;
 }
+
+.woocommerce .content .container .container_inner,
+.woocommerce-page .content .container .container_inner {
+  padding-bottom: 110px;
+}
+
 
 /* quantity +/- button color */
 
@@ -168,4 +175,14 @@ footer{
 .woocommerce-page #content .quantity .plus:hover{
     color: #fff;
     background-color: #03acf0;
+}
+
+/* button height on cart page */
+
+.woocommerce .button,
+.woocommerce input[type="submit"],
+.woocommerce ul.products li.product
+.added_to_cart, .woocommerce-page .button,
+.woocommerce-page input[type="submit"]{
+  height: 36px;
 }
