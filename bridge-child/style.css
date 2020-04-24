@@ -25,6 +25,8 @@ Template: bridge
   transition: color .3s ease-in-out;
 }
 
+
+
 /* No wrap and add elipses */
 .woocommerce ul.products li.product h6{
   white-space: nowrap;
@@ -64,6 +66,12 @@ Template: bridge
 
 .shopping_cart_inner .woocommerce-Price-amount{
   color: black !important;
+}
+
+.shopping_cart_dropdown .qbutton:hover {
+    background-color: #03acf0;
+    border-color: #03acf0;
+    color: #fff;
 }
 
 a.shipping-calculator-button {
