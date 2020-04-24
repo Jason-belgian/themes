@@ -82,6 +82,9 @@ a.shipping-calculator-button {
   font-size: 1em;
 }
 
+
+
+
 nav.main_menu ul li:hover a {
   color: #000;
   transition: color .3s ease-in-out;
@@ -139,6 +142,10 @@ nav.main_menu > ul > li > a {padding: 0px; margin: 0 20px;}
   background-color: #fff;
 }
 
+/* Cart price color */
+.woocommerce div.cart-collaterals div.cart_totals table tr.order-total strong span.amount, .woocommerce-page div.cart-collaterals div.cart_totals table tr.order-total strong span.amount{
+  color: #03acf0;
+}
 
 /* Footer fixes */
 .wrapper_inner{
@@ -147,4 +154,18 @@ nav.main_menu > ul > li > a {padding: 0px; margin: 0 20px;}
 footer{
   position: absolute;
   bottom: 0;
+}
+
+/* quantity +/- button color */
+
+.woocommerce .quantity .minus:hover,
+.woocommerce #content .quantity .minus:hover,
+.woocommerce-page .quantity .minus:hover,
+.woocommerce-page #content .quantity .minus:hover,
+.woocommerce .quantity .plus:hover,
+.woocommerce #content .quantity .plus:hover,
+.woocommerce-page .quantity .plus:hover,
+.woocommerce-page #content .quantity .plus:hover{
+    color: #fff;
+    background-color: #03acf0;
 }
