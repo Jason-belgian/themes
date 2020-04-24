@@ -147,14 +147,21 @@ nav.main_menu > ul > li > a {padding: 0px; margin: 0 20px;}
   color: #03acf0;
 }
 
+/* insert price color in cart page  */
+.woocommerce ins, .woocommerce-page ins {
+  color: #888;
+  font-size: 1em;
+}
+
+
 /* Footer fixes */
 .wrapper_inner{
   min-height: 100vh;
 }
+
 footer{
   position: absolute;
   bottom: 0;
-  margin-top: 15px;
 }
 
 .woocommerce .content .container .container_inner,
