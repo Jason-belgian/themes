@@ -115,22 +115,40 @@ a.product-category.product-info {padding: 10px;}
   font-size: 24px;
   letter-spacing: 0px;
   font-weight: 800;
+  padding-top: 50px;
+
 }
 
 .title_subtitle_holder {
   text-align: center;
-
 }
 
-nav.main_menu > ul > li > a {padding: 0px; margin: 0 20px;}
-.shopping_cart_header {text-align: right;}
+.title_holder {
+  height:75px !important;
+  padding-top: 116px!important;
+}
+
+nav.main_menu > ul > li > a {
+  padding: 0px;
+  margin: 0 20px;
+}
+.shopping_cart_header {
+  text-align: right;
+}
 
 .container_inner .default_template_holder {
   padding-top: 0px;
 }
 
+.title.title_size_small.position_left {
+  padding-bottom: 0px !important;
 
-.woocommerce .content .container .container_inner, .woocommerce-page .content .container .container_inner {padding-top: 0px;}
+}
+
+.woocommerce .content .container .container_inner, .woocommerce-page .content .container .container_inner {
+  padding-top: 30px;
+}
+
 .select2-container--default.select2-container--open .select2-selection--single {
   color: #03acf0;
 }
@@ -191,5 +209,17 @@ footer{
 .woocommerce ul.products li.product
 .added_to_cart, .woocommerce-page .button,
 .woocommerce-page input[type="submit"]{
-  height: 36px;
+  height: 36px
+}
+
+/* removes paypal div from cart summary page */
+
+.wcppec-checkout-buttons.woo_pp_cart_buttons_div {
+  display: none;
+}
+
+/* removes coupon form from checkout page */
+
+.woocommerce-form-coupon-toggle {
+  display: none;
 }
