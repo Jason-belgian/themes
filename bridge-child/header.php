@@ -47,7 +47,7 @@ echo bridge_qode_get_module_template_part('templates/side-area/side-area', 'head
 echo bridge_qode_get_module_template_part('templates/panel-area', 'panel-area', '', $params);
 ?>
 
-<div class="wrapper">
+<div class="wrapper amount_in_cart_<?php echo esc_attr( WC()->cart->cart_contents_count ); ?>">
 	<div class="wrapper_inner">
 
     <?php do_action('bridge_qode_action_after_wrapper_inner'); ?>
