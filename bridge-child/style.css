@@ -223,3 +223,13 @@ footer{
 .woocommerce-form-coupon-toggle {
   display: none;
 }
+
+/* fixes product count from cart icon in header */
+
+.shopping_cart_header .header_cart.dripicons-cart .header_cart_span{
+  padding-left: 0px;
+}
+
+.amount_in_cart_0 .shopping_cart_outer{
+  display: none;
+}
