@@ -233,3 +233,7 @@ footer{
 .amount_in_cart_0 .shopping_cart_outer{
   display: none;
 }
+
+.woocommerce .button, .woocommerce input[type="submit"], .woocommerce ul.products li.product .added_to_cart, .woocommerce-page .button, .woocommerce-page input[type="submit"] {
+  line-height:32px;
+}
