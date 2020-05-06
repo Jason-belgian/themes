@@ -177,15 +177,7 @@ nav.main_menu > ul > li > a {
   min-height: 100vh;
 }
 
-footer{
-  position: absolute;
-  bottom: 0;
-}
 
-.woocommerce .content .container .container_inner,
-.woocommerce-page .content .container .container_inner {
-  padding-bottom: 110px;
-}
 
 
 /* quantity +/- button color */
@@ -236,4 +228,9 @@ footer{
 
 .woocommerce .button, .woocommerce input[type="submit"], .woocommerce ul.products li.product .added_to_cart, .woocommerce-page .button, .woocommerce-page input[type="submit"] {
   line-height:32px;
+}
+
+
+footer .widget_text{
+	font-size:13px;
 }
